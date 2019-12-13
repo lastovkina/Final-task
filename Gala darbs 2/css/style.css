@@ -1,0 +1,287 @@
+/* For all */
+#fonts {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #89c4f4;
+    font-size: 16px;
+}
+
+.title-area img {
+    width: 30px;
+    margin-left: 100px;
+    margin-top: 13px;
+}
+
+.logo img {
+    width: 30px;
+    margin-left: 100px;
+    margin-top: 13px;
+}
+
+.footer {
+    background-color: pink;
+    height: 59px;
+}
+
+/* Home */
+
+.heroimage {
+    background-color: #89c4f4;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.line {
+    background-color: pink;
+}
+
+.carousel-caption {
+    margin-bottom: 50px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    filter: invert(100%);
+    margin-bottom: 25px;
+}
+
+img.d-block {
+    margin: 25px 0px;
+}
+
+.artickle-text {
+    margin-left: 194px;
+}
+
+@media(min-width:468px){
+.container {
+    display:flex;  
+    justify-content:space-between;
+}
+}
+  
+.container div {
+    padding:10px;
+    flex-shrink: 1;
+    flex-basis: max-content;
+    text-align: left;
+    margin: 7px 20px;
+    background-color: white;
+    width: 600px;
+}
+
+.box-images {
+    float:left;
+    width:50%;
+    margin: 5px;
+}
+
+.body {
+    background-color: #89c4f4;
+    margin-bottom: 17px;
+}
+
+.container-box a {
+    text-decoration: underline;
+}
+
+/* Recipes */
+
+.breadcrumb a{
+    background-color: #89c4f4;
+    margin-left: 20px;
+    color: black;
+}
+
+.breadcrumb a:hover { 
+    text-decoration: none;
+    color: white;
+}
+
+.breadcrumb .active { 
+    color: white;
+}
+
+ul.breadcrumb {
+    background-color: #89c4f4;
+    margin-top: 15px;
+}
+
+.container-2 {
+    display: flex;
+}
+
+.col-3 {
+    margin-left: 36px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+
+.col-8 {
+    margin-top: 15px;
+}
+
+.container-2 a {
+    text-decoration: underline;
+}
+
+.col-3 img {
+    border: 1px pink solid;
+}
+
+.page-item .page-link {
+    background-color: #89c4f4;
+    border: #89c4f4;
+    margin-bottom: 83px;
+    color: black;
+}
+
+.page-link.active {
+    color: white;
+}
+
+/* Recipes-popup */
+
+.gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 32%;
+}
+
+.gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+/* About us */
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    margin-left: 45px;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  
+  .tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+  }
+  
+  /* Go from zero to full opacity */
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+
+  /* Register */
+  
+  input[type=checkbox], input[type=radio] {
+    margin-left: 1px;
+  }
+
+  .form-check-label {
+    margin-left: 23px;
+  }
+
+  .col-3 register {
+    height: 500px;
+  }
+
+  .recipe-images img {
+    width: 400px;
+    margin-left: 33px;
+    margin-top: 25px;
+    margin-bottom: 140px;
+  }
+
+    .recipe-information p{
+        margin-top: 22px;
+    }
+
+    .col-4 {
+        max-width: 100%;
+    }
+
+    /* Chat */
+
+    .chat {
+        width: 60%;
+        height: 600px;
+        margin-left: 20%;
+        margin-bottom: 5%;
+    }
+
+    .chat-top {
+        width: 100%;
+        border: 1px solid black;
+        height: 100px;
+    }
+
+    .chat-body {
+        width: 100%;
+        border: 1px solid black;
+        height: 250px;
+        overflow:scroll;
+    }
+
+    .chat-message {
+        width: 100%;
+        border: 1px solid black;
+    }
+
+    .username2 {
+        width: 30%;
+    }
+
+    .message3 {
+        width: 80%;
+        height: 100px;
+    }
+
+    .chat-message2 {
+        margin-left: 5%;
+    }
+
+    .contacts{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
